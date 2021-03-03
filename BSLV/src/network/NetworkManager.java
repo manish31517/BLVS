@@ -26,7 +26,7 @@ public abstract class NetworkManager implements  Runnable {
        Object inObj =  in.readObject();
        if(inObj instanceof  Message){
            Message msg= (Message) inObj;
-           msgHandler(msg,socket);
+
        }
    }
 

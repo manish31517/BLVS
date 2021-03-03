@@ -1,5 +1,4 @@
 package network;
-
 import javax.crypto.SealedObject;
 import java.io.IOException;
 import java.net.InetAddress;
@@ -168,7 +167,5 @@ public class ServerManager extends NetworkManager {
         }
         System.out.println("Bye----");
     }
- public static  void main(String [] args){
-        ServerManager svrmgr = new ServerManager(5000);
- }
+
 }
